@@ -190,11 +190,11 @@ function buildCharts(sample) {
    gauge: {
        axis: {range:[null, 10] },
        steps: [
-         {range:[0,2], color:"pink"},
-         {range:[2,4], color:"teal"},
-         {range:[4,6], color:"blue"},
-         {range:[6,8], color:"aquamarine"},
-         {range:[8,10], color:"violet"}
+         {range:[0,2], color:"red"},
+         {range:[2,4], color:"orange"},
+         {range:[4,6], color:"yellow"},
+         {range:[6,8], color:"yellowgreen"},
+         {range:[8,10], color:"green"}
        ],
        bar: { color: "navy" }
    }
